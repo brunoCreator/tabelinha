@@ -1,85 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
    <head>
-       <meta charset="utf-8"/>
-       <title>tabelinha</title>
-       <style>
-           body{
-               font-family: sans-serif;
-               margin: 0;
-           }
-           ul {
-margin: 0;
-  padding-left: 30px;
-  overflow: hidden;
-  background: black;
-}
-           li{
-               background: black;
-               list-style-type: none;
-  float: left;
-               padding: 23px;
+    <meta charset="utf-8" />
+    <title>The Elder Scrolls V: Skyrim</title>
+    <link rel="stylesheet" href="main.css">
+</head>
 
-}
-           li a ,h3{
-  color: white;
-  text-decoration: none;
-}
-           table {
-                border-collapse: collapse;
-                
-            width: 100%;
-            }
-           img{
-               width: 100%;
-           }
-           footer{
-               position: absolute;
-                bottom: 0;
-               width: 100%;
-               background: black;
-           }
-           
-           footer a{
-               margin: 30px;
-               color: white;
-  text-decoration: none;
-           }
-       </style>
-   </head>
-   <body>
-      
-<ul id="top">
-  <a href="index.html"><h3 style="float: left;">Meus jogos</h3></a> 
-  <li><a href="jogo1.html">CS GO</a></li>
-  <li><a href="jogo2.html">Skyrim</a></li>
-  <li><a href="jogo2.html">DARK SOULS</a></li>
-       </ul>
-       <div style="margin: 40px">
-       <h1>The Elder Scrolls V: Skyrim</h1>
-       <h4>Sobre</h4>
-       
-       <p>Vencedor de mais de 200 prêmios de Jogo do Ano, Skyrim Special Edition traz vida à fantasia épica com detalhes deslumbrantes. A Special Edition inclui o jogo aclamado pela crítica e seu conteúdo adicional, com novos traços como: arte e efeitos remasterizados, iluminação melhorada, profundidade de campo dinâmica, reflexos em espaço de tela e mais.</p>
-       
-       <h4>Onde comprar</h4>
-       <ul style="background: white;">
-  <li><a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Steam</a></li>
-  <li><a href="https://marketplace.xbox.com/pt-BR/Product/Skyrim/66acd000-77fe-1000-9115-d802425307e6">Marketplace Xbox</a></li>
-  <li><a href="https://store.playstation.com/pt-br/product/UP1003-CUSA05333_00-SKYRIMHDFULLGAME">PlayStation Store</a></li>
-       </ul>
-       
-       <h4>Imagens</h4>
-       
-       <table>
-  <tr>
-      <td><img src="img/ss_5d19c69d33abca6f6271d75f371d4241c0d6b2d1.600x338.jpg"></td>
-      <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/489830/ss_8c7ecd394afb581b9b2137a3de04433f78fdf4ea.600x338.jpg?t=1573759171"></td>
-      <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/489830/ss_921ccea650df936a0b14ebd5dd4ecc73c1d2a12d.600x338.jpg?t=1573759171"></td>
-    </tr>       
-       </table>    
-           </div>
-<footer>
-    <p><a href="#top">TOP</a></p>
-</footer>
-   </body>
-</html>
+<body>
+    <div style="display: grid;">
+        <div class="header">
+            <a href="index.html">
+                <h1>Meus jogos</h1>
+            </a>
+        </div>
+
+
+        <div class="invlucro">
+            <div class="navLeft">
+
+                <ul>
+                    <li><a href="jogo1.html">CS GO</a></li>
+                    <li><a href="jogo2.html">Skyrim</a></li>
+                    <li><a href="jogo3.html">DARK SOULS</a></li>
+                </ul>
+
+            </div>
+
+            <div class="conteudo">
+                <h1>The Elder Scrolls V: Skyrim</h1>
+                <h4>Sobre</h4>
+
+                <p>Vencedor de mais de 200 prêmios de Jogo do Ano, Skyrim Special Edition traz vida à fantasia épica com detalhes deslumbrantes. A Special Edition inclui o jogo aclamado pela crítica e seu conteúdo adicional, com novos traços como: arte e efeitos remasterizados, iluminação melhorada, profundidade de campo dinâmica, reflexos em espaço de tela e mais.</p>
+
+                <h4>Onde comprar</h4>
+                <ul style="background: white;">
+                    <li><a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Steam</a></li>
+                    <li><a href="https://marketplace.xbox.com/pt-BR/Product/Skyrim/66acd000-77fe-1000-9115-d802425307e6">Marketplace Xbox</a></li>
+                    <li><a href="https://store.playstation.com/pt-br/product/UP1003-CUSA05333_00-SKYRIMHDFULLGAME">PlayStation Store</a></li>
+                </ul>
+
+                <h4>Imagens</h4>
+
+                <table>
+                    <tr>
+                        <td><img src="img/ss_5d19c69d33abca6f6271d75f371d4241c0d6b2d1.600x338.jpg"></td>
+                        <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/489830/ss_8c7ecd394afb581b9b2137a3de04433f78fdf4ea.600x338.jpg?t=1573759171"></td>
+                        <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/489830/ss_921ccea650df936a0b14ebd5dd4ecc73c1d2a12d.600x338.jpg?t=1573759171"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <a href="cadastro.html">>> Cadastre-se</a>
+            <a href="contato.html">>> Fale Conosco</a>
+            <a href="#">>> Facebook</a>
+            <a href="#top">TOP</a>
+        </footer>
+    </div>
+</body></html>
