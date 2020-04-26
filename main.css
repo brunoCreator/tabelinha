@@ -1,0 +1,78 @@
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 30px;
+    margin: 0;
+    background: indigo;
+}
+
+li {
+    list-style-type: none;
+    padding: 23px;
+}
+
+footer a {
+    color: gainsboro;
+    padding: 50px;
+}
+
+.conteudo table {
+    border-collapse: collapse;
+
+}
+
+td,
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 16px;
+}
+
+footer {
+    color: white;
+    padding: 40px;
+    background: black;
+}
+
+
+
+.header {
+    width: auto;
+    text-align: center;
+    padding: 40px;
+    background: black;
+}
+
+.header a,
+.navLeft a {
+    color: white;
+    text-decoration: none;
+}
+
+.navLeft {
+    display: contents;
+    height: 100%;
+
+}
+
+.conteudo {
+    padding: 50px;
+}
+
+.involucro {
+    display: flex;
+
+}
+
+
+.invlucro {
+    display: flex;
+}
