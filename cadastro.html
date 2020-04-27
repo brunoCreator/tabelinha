@@ -7,32 +7,111 @@
 </head>
 
 <body>
-<div style="display: grid;">
-    <div class="header">
-        <a href="index.html">
-            <h1>Meus jogos</h1>
-        </a>
-    </div>
-
-
-    <div class="invlucro">
-        <div class="navLeft">
-
-            <ul>
-                <li><a href="jogo1.html">CS GO</a></li>
-                <li><a href="jogo2.html">Skyrim</a></li>
-                <li><a href="jogo3.html">DARK SOULS</a></li>
-            </ul>
-
+    <div style="display: grid;">
+        <div class="header">
+            <a href="index.html">
+                <h1>Meus jogos</h1>
+            </a>
         </div>
 
-        <div class="conteudo">
-            <h2>Cadastro</h2>
+
+        <div class="invlucro">
+            <div class="navLeft">
+
+                <ul>
+                    <li><a href="jogo1.html">CS GO</a></li>
+                    <li><a href="jogo2.html">Skyrim</a></li>
+                    <li><a href="jogo3.html">DARK SOULS</a></li>
+                </ul>
+
+            </div>
+
+            <div class="conteudo" style="min-height: 63vh">
+                <h2>Cadastro</h2>
+                <div style="float:left; padding-right: 150px;">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" size="60"><br><br>
+
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" size="60"><br><br>
+
+                    <label for="nascimento">Data Nascimento:</label>
+                    <input type="data" name="nascimento" id="nascimento" placeholder="dd/mm/aaaa" size="60"><br><br>
+
+                    <label>Sexo:</label>
+
+                    <input type="radio" name="masculino" id="masculino">
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" name="feminino" id="feminino">
+                    <label for="feminino">Feminino</label><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email@email.com" size="60"><br><br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(XX)XXXX-XXXX" size="60" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"><br><br>
+
+                </div>
+
+                <div style="float:left">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Endereço" size="60"><br><br>
+
+                    <label for="estado">Estado:</label>
+
+                    <select id="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select><br><br>
+
+                    <label for="numero">Número:</label>
+                    <input type="number" name="numero" id="numero" placeholder="Número" style="width:450px"><br><br>
+
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" size="60"><br><br>
+
+                    <label for="login">Login:</label>
+                    <input type="text" name="login" id="login" placeholder="login" size="60"><br><br>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" size="60"><br><br>
+                    <input class="input" type="submit" value="Enviar">
+                </div>
+
+
+            </div>
         </div>
+        <footer>
+            <a href="cadastro.html">>> Cadastre-se</a>
+            <a href="contato.html">>> Fale Conosco</a>
+            <a href="#">>> Facebook</a>
+        </footer>
     </div>
-    <footer>
-        <a href="cadastro.html">>> Cadastre-se</a>
-        <a href="contato.html">>> Fale Conosco</a>
-        <a href="#">>> Facebook</a>
-    </footer></div>
 </body></html>
