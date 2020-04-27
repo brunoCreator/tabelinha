@@ -1,103 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
    <head>
-    <meta charset="utf-8" />
-    <title>tabelinha</title>
-    <link rel="stylesheet" href="main.css">
-</head>
+       <meta charset="utf-8"/>
+       <title>tabelinha</title>
+       <style>
+           body{
+               font-family: sans-serif;
+               margin: 0;
+           }
+           ul {
+margin: 0;
+  padding-left: 30px;
+  overflow: hidden;
+  background-color: black;
+}
+           li{
+               list-style-type: none;
+  float: left;
+               padding: 23px;
 
-<body>
-<div>
-    <div class="header">
-        <a href="index.html">
-            <h1>Meus jogos</h1>
-        </a>
-    </div>
+}
+           li a ,h3{
+  color: white;
+  text-decoration: none;
+}
+           table {
+                border-collapse: collapse;
+                width: 100%;
+            }
 
+            td, th,td {
+                border: 1px solid #dddddd;
+                text-align: center;
+                padding: 16px;
+                }
+       </style>
+   </head>
+   <body>
+      
+<ul>
+  <a href="index.html"><h3 style="float: left;">Meus jogos</h3></a> 
+  <li><a href="jogo1.html">CS GO</a></li>
+  <li><a href="jogo2.html">Skyrim</a></li>
+  <li><a href="jogo2.html">DARK SOULS</a></li>
+       </ul>
+       
 
-    <div class="invlucro">
-        <div class="navLeft">
-
-            <ul>
-                <li><a href="jogo1.html">CS GO</a></li>
-                <li><a href="jogo2.html">Skyrim</a></li>
-                <li><a href="jogo2.html">DARK SOULS</a></li>
-            </ul>
-
-        </div>
-
-        <div class="conteudo">
-            <table>
-                <tr>
-                    <th>Nome</th>
-                    <th>Data de Lançamento</th>
-                    <th>Estilo</th>
-                    <th>Fabricante</th>
-                    <th>Plataformas</th>
-                    <th colspan="2">Preço(de/Até)</th>
-                </tr>
-                <tr>
-                    <td rowspan="3">Counter-Strike: Global Offensive</td>
-                    <td rowspan="3">21 de agosto de 2012</td>
-                    <td rowspan="3">FPS</td>
-                    <td rowspan="3">Valve Corporation</td>
-                    <td>Microsoft Windows</td>
-                    <td rowspan="3" colspan="2">Gratis</td>
-                </tr>
-                <tr>
-                    <td>PlayStation 3</td>
-
-                </tr>
-                <tr>
-                    <td>Xbox 360</td>
-                </tr>
-
-
-                <tr>
-                    <td rowspan="3">The Elder Scrolls V: Skyrim</td>
-                    <td rowspan="3">11 de novembro de 2011</td>
-                    <td rowspan="3">RPG</td>
-                    <td rowspan="3">Bethesda Game Studios</td>
-                    <td>Microsoft Windows</td>
-                    <td rowspan="3">R$ 33,91</td>
-                    <td rowspan="3">R$ 169,90</td>
-                </tr>
-                <tr>
-                    <td>PlayStation 3</td>
-
-                </tr>
-                <tr>
-                    <td>Xbox 360</td>
-                </tr>
-
-
-                <tr>
-                    <td rowspan="3">DARK SOULS</td>
-                    <td rowspan="3">22 de setembro de 2011</td>
-                    <td rowspan="3">RPG</td>
-                    <td rowspan="3">FromSoftware</td>
-                    <td>Microsoft Windows</td>
-                    <td rowspan="3">R$ 80,98</td>
-                    <td rowspan="3">R$ 129,90</td>
-                </tr>
-                <tr>
-                    <td>PlayStation 4</td>
-
-                </tr>
-                <tr>
-                    <td>Xbox One</td>
-                </tr>
-                <tr>
-                    <td colspan="7">Valores consultados em 19/3/2020</td>
-                </tr>
-            </table>
-            <p>Tabela 1: Comparativo Jogos
-            </p>
-        </div>
-    </div>
-    <footer>
-        <a href="cadastro.html">>> Cadastre-se</a>
-        <a href="contato.html">>> Fale Conosco</a>
-        <a href="#">>> Facebook</a>
-    </footer></div>
-</body></html>
+<table>
+  <tr>
+      <th>Nome</th>
+      <th>Data de Lançamento</th>
+      <th>Estilo</th>
+      <th>Fabricante</th>
+      <th>Plataformas</th>
+      <th colspan="2">Preço(de/Até)</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Counter-Strike: Global Offensive</td>
+        <td rowspan="3">21 de agosto de 2012</td>
+        <td rowspan="3">FPS</td>
+        <td rowspan="3">Valve Corporation</td>
+        <td>Microsoft Windows</td>
+        <td rowspan="3" colspan="2">Gratis</td>
+    </tr>
+    <tr>
+        <td>PlayStation 3</td>
+        
+    </tr>
+    <tr>
+        <td>Xbox 360</td>
+    </tr>
+    
+    
+    <tr>
+        <td rowspan="3">The Elder Scrolls V: Skyrim</td>
+        <td rowspan="3">11 de novembro de 2011</td>
+        <td rowspan="3">RPG</td>
+        <td rowspan="3">Bethesda Game Studios</td>
+        <td>Microsoft Windows</td>
+        <td rowspan="3">R$ 33,91</td>
+        <td rowspan="3">R$ 169,90</td>
+    </tr>
+    <tr>
+        <td>PlayStation 3</td>
+        
+    </tr>
+    <tr>
+        <td>Xbox 360</td>
+    </tr>
+    
+    
+    <tr>
+        <td rowspan="3">DARK SOULS</td>
+        <td rowspan="3">22 de setembro de 2011</td>
+        <td rowspan="3">RPG</td>
+        <td rowspan="3">FromSoftware</td>
+        <td>Microsoft Windows</td>
+        <td rowspan="3">R$ 80,98</td>
+        <td rowspan="3">R$ 129,90</td>
+    </tr>
+    <tr>
+        <td>PlayStation 4</td>
+        
+    </tr>
+    <tr>
+        <td>Xbox One</td>
+    </tr>
+    <tr>
+        <td colspan="7">Valores consultados em 19/3/2020</td>
+    </tr>
+</table>
+       <p>Tabela 1: Comparativo Jogos
+</p>
+   </body>
+</html>
