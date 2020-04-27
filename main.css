@@ -20,7 +20,7 @@ li {
 
 footer a {
     color: gainsboro;
-    padding: 0 50px;
+    padding: 50px;
 }
 
 .conteudo table {
@@ -76,32 +76,3 @@ footer {
 .invlucro {
     display: flex;
 }
-
-
-
-
-           ul {
-margin: 0;
-  padding-left: 30px;
-  overflow: hidden;
-  background: black;
-}
-           li{
-               background: black;
-               list-style-type: none;
-  float: left;
-               padding: 23px;
-
-}
-           li a ,h3{
-  color: white;
-  text-decoration: none;
-}
-           table {
-                border-collapse: collapse;
-                
-            width: 100%;
-            }
-           img{
-               width: 100%;
-           }          
