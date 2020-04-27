@@ -77,7 +77,27 @@ footer {
     display: flex;
 }
 
-       table {
+
+
+
+           ul {
+margin: 0;
+  padding-left: 30px;
+  overflow: hidden;
+  background: black;
+}
+           li{
+               background: black;
+               list-style-type: none;
+  float: left;
+               padding: 23px;
+
+}
+           li a ,h3{
+  color: white;
+  text-decoration: none;
+}
+           table {
                 border-collapse: collapse;
                 
             width: 100%;
@@ -85,25 +105,3 @@ footer {
            img{
                width: 100%;
            }          
-
-.lojas{
-    background: none;
-    
-}
-
-.lojas li{
-    display: inline;
-list-style-type: none;
-  
-}
-.lojas img{
-    vertical-align: middle;
-    height: 50px;
-    width: auto;
-}
-
-.lojas a{
-    color: white;
-  text-decoration: none;
-    
-}
