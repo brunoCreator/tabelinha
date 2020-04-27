@@ -107,3 +107,8 @@ list-style-type: none;
   text-decoration: none;
     
 }
+
+label {
+    display:inline-block;
+    width: 90px;
+}
