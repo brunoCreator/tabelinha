@@ -37,27 +37,33 @@ img {
     width: 100%;
 }
 
-.lojas {
+
+
+.lojas{
+    padding: 0;
+    margin: 0;
+    background: indigo;
     background: none;
-
 }
 
-.lojas li {
-    display: inline;
+.lojas li{
+    margin-left: -5px;
     list-style-type: none;
-
+    padding: 19px;
+    display: inline;
+list-style-type: none;
+  
 }
-
-.lojas img {
+.lojas img{
     vertical-align: middle;
     height: 50px;
     width: auto;
 }
 
-.lojas a {
+.lojas a{
     color: white;
-    text-decoration: none;
-
+  text-decoration: none;
+    
 }
 
 .involocro{
