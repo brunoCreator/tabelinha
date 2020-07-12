@@ -31,12 +31,20 @@ function normal(){
     this.style.opacity = "1";
 }
 }
-
-document.addEventListener("click", function(e) {
 var telefone = document.getElementById("telefone");
-  if(e.target != telefone) {
-      var numeros = ('' + telefone.value).replace(/\D/g, '').substr(0,11);
+telefone.addEventListener("focusout", function(e) {
 
+      var numeros = ('' + telefone.value).replace(/\D/g, '').substr(0,11);
       telefone.value = numeros.replace(/(\d{2})(\d{5})(\d{4})/, "($1) $2-$3");;
-  }
+})
+var email = document.getElementById("email");
+email.addEventListener("focusout", function(e) {
+
+      const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      if(re.test(email.value)){
+           
+}else{
+    alert("Invalido");
+}
+
 })
